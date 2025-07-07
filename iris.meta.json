@@ -1,0 +1,83 @@
+{
+    "checksum": "ntwtuQAUhRSoiUjRBISPIg==",
+    "data_train_hdf5_fp": "iris.training.hdf5",
+    "dataset_src": "iris.csv",
+    "petal_length": {
+        "mean": 3.758000135421753,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 1.7652982473373413
+    },
+    "petal_width": {
+        "mean": 1.1993333101272583,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 0.7622376680374146
+    },
+    "sepal_length": {
+        "mean": 5.8433332443237305,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 0.8280661106109619
+    },
+    "sepal_width": {
+        "mean": 3.057333469390869,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 0.4358662962913513
+    },
+    "species": {
+        "idx2str": [
+            "setosa",
+            "versicolor",
+            "virginica"
+        ],
+        "preprocessing": {
+            "cache_encoder_embeddings": false,
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "drop_row",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "setosa": 50,
+            "versicolor": 50,
+            "virginica": 50
+        },
+        "str2idx": {
+            "setosa": 0,
+            "versicolor": 1,
+            "virginica": 2
+        },
+        "vocab_size": 3
+    }
+}

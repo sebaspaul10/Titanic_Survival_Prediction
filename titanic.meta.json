@@ -1,0 +1,114 @@
+{
+    "Age": {
+        "mean": 29.47144317626953,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 14.121908187866211
+    },
+    "Fare": {
+        "mean": 32.305419921875,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 49.78204345703125
+    },
+    "Parch": {
+        "mean": 0.3833145499229431,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 0.8074658513069153
+    },
+    "Pclass": {
+        "idx2str": [
+            "3",
+            "1",
+            "2"
+        ],
+        "preprocessing": {
+            "cache_encoder_embeddings": false,
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "1": 216,
+            "2": 184,
+            "3": 487
+        },
+        "str2idx": {
+            "1": 1,
+            "2": 2,
+            "3": 0
+        },
+        "vocab_size": 3
+    },
+    "Sex": {
+        "idx2str": [
+            "male",
+            "female"
+        ],
+        "preprocessing": {
+            "cache_encoder_embeddings": false,
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "female": 314,
+            "male": 573
+        },
+        "str2idx": {
+            "female": 1,
+            "male": 0
+        },
+        "vocab_size": 2
+    },
+    "SibSp": {
+        "mean": 0.5253664255142212,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 1.1046686172485352
+    },
+    "Survived": {
+        "preprocessing": {
+            "computed_fill_value": null,
+            "fallback_true_label": null,
+            "fill_value": null,
+            "missing_value_strategy": "drop_row"
+        }
+    },
+    "checksum": "dC3Msn__i4bxPBnAhI1Rgg==",
+    "data_train_hdf5_fp": "titanic.training.hdf5",
+    "dataset_src": "titanic.csv"
+}
